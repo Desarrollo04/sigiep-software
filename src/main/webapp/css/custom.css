@@ -1,0 +1,335 @@
+body, html{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    padding: 0 !important;    
+}
+
+body{    
+    background-image: url("../images/fondo.png") !important;
+    background-size: 100% !important;
+}
+
+#header{    
+    background-image: url("../images/cabeza/cabeza.png") !important;
+    width: 100% !important;
+    height: 80px !important;   
+    color: #fff !important;
+    font-size: 20px !important;
+}
+
+#main{    
+    padding-top: 5px;
+    height: 80vh !important;    
+    overflow-y: auto !important;
+    border-right: solid 1px #AFACAC;
+}
+
+#footer{
+    background-color: #1A7F91 !important;
+    height: 51px !important;
+    bottom: 0 !important;
+    right: 0 !important; 
+    position: fixed !important;    
+    background-image: url("../images/footer/pie.png") !important;
+}
+
+.texto-getiones{
+    font-style: italic !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+
+.gestiones{
+    margin-bottom: 20px !important;
+}
+
+.gestiones:hover{
+    background: linear-gradient(to right,#E5EAEB, #D7F8FF) !important;
+}
+
+#img-logo{
+    margin-top: 10px !important;
+    width: 170px !important;        
+}
+
+#texto-ano{    
+    color: #fff !important;
+    font-size: 35px !important;
+    font-weight: 700 !important;
+    font-style: italic !important;    
+    left: 0 !important;
+    top: 0 !important;    
+    text-shadow: 2px 2px #B6B3B3;
+}
+
+#img-empresa{
+    width: 55px !important;    
+}
+
+#img-footer{
+    margin-top: 5px !important;    
+}
+
+.icono-gestiones{
+    width: 80px !important;
+}
+
+.link-cabeza{
+    color: #fff !important;
+    cursor: pointer !important;
+    margin-right: 10px !important;
+}
+
+#barra{    
+    margin-top: 5px !important;
+    background-color: #8e8a8a !important;   
+    width: 12px !important;
+    left: 0 !important;
+    height: 74.9vh !important;
+    position: absolute !important;    
+    color: #fff !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    color: #fff !important;    
+    font-size: 10px !important;
+    cursor: pointer !important;    
+}
+
+.nav > li.nav-item{
+    border-radius: 5px !important;    
+    color: #0090aa !important;    
+}
+
+.nav > li.nav-item > a{
+    border-radius: 5px !important;
+    color: #0090aa !important;    
+}
+
+.link{    
+    cursor: pointer !important;    
+}
+
+.link:hover{
+    background: linear-gradient(to right,#E5EAEB, #D7F8FF) !important;
+}
+
+.link > a > span{    
+    margin-right: 7px !important;
+    vertical-align: middle;
+}
+
+#cuerpo{
+    padding: 5px !important;
+}
+
+.btn-primary{
+    background-color: #1A7F91 !important;
+    color: #fff !important;
+    border-color: transparent !important;
+}
+
+.btn-gestiones{
+    width: 100% !important;
+    font-size: 12px !important;
+    box-shadow: #A5A2A2 2px 2px 1px 1px !important;
+}
+
+.titulo{
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    background-color: #1A7F91 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    padding: 5px !important;    
+    margin-top: 0;
+}
+
+.ajuste{
+    width: 5% !important;
+}
+
+.btn-basico{
+    vertical-align: middle !important;
+    font-size: 20px !important;
+    cursor: pointer !important;    
+}
+
+.input_table{
+    width: 100% !important;
+}
+
+.cuerpo-formulario{
+    margin-top: 15px !important;
+}
+
+#tabla_length{
+    float: left !important;
+}
+
+.nav > li > a > img{
+    max-width: 35px !important;
+    margin-right: 5px !important;
+}
+
+.nav > li > a {
+    padding: 10px 15px;
+}
+
+.cuerpo-formulario{
+    padding: 5px !important;
+}
+
+.link > a > span.texto-menu{
+    font-size: 12px !important;    
+    line-height: 10pt !important;
+    text-indent: 40pt !important;        
+    font-weight: 700;
+    line-break: loose;
+}
+
+.img-menu{
+    float: left !important;
+}
+
+a.link-gestion{
+    color: #000 !important;
+    text-decoration:none !important;
+}
+
+.texto-principal{
+    font-style: italic !important;
+    font-weight: 700 !important;
+    vertical-align: middle !important;
+}
+
+.img-principal{
+    margin-top: 10% !important;
+    vertical-align: middle !important;
+}
+
+.cuerpo-principal{
+    height: 54vh !important;
+    background-color: transparent !important;
+}
+
+.bold{
+    font-weight: 700 !important;
+}
+
+.breadcrumb{
+    font-size: 10px !important;
+    margin-bottom: 0 !important;
+    background: transparent !important;
+    margin-top: 0 !important;
+}
+
+#sidebar{
+    padding-top: 15px !important;
+}
+
+table.dataTable thead th,
+table.dataTable thead td{
+    padding: 1px 18px !important;
+    font-size: 12px !important;
+}
+
+table.dataTable tbody td,
+table.dataTable tbody td{
+    padding: 1px !important;
+}
+
+.dataTables_wrapper .ui-toolbar{
+    padding: 2px !important;
+}
+
+.card-signin{
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem !important;
+    font-weight: 300 !important;
+    font-size: 1.5rem !important;
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.badge{
+    font-size: 12px !important;
+}
+
+#imagen-usuario{
+    font-size: 35px !important;
+}
+
+.main{
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px 1px #e0dfdf;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 12px !important;    
+}
+
+#table{
+    width: 100% !important;
+}
+
+.dataTables_length{
+    text-align: left !important;
+    white-space: nowrap !important;
+    margin-top: 5px !important;
+}
+
+#table_filter{   
+    white-space: nowrap !important;
+    text-align: right !important; 
+    margin-top: 5px !important;
+}
+
+.dataTables_info{
+    text-align: left !important;   
+}
+
+.dataTables_paginate{
+    text-align: right !important;
+}
+
+.nav-item:hover{
+    border: solid #EBEBE1 1px;
+    border-radius: 5px;
+    font-size: 11px !important;
+}
+
+.table thead tr th{
+    padding: 10px !important;
+    vertical-align: middle !important;
+}
+
+.contenedor{
+    padding: 5px;
+}
+
+.table tbody tr td{
+    vertical-align: middle !important;
+}
+
+.ruta{
+    color: #1A7F91 !important;
+}
